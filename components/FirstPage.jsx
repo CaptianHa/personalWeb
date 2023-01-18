@@ -1,5 +1,5 @@
 import React from "react"
-
+import headshot from '../images/headShot.jpg'
 export default function FirstPage(){
     return(
         <div className="entire--page">
@@ -19,22 +19,32 @@ export default function FirstPage(){
                 <hr className="line-1"></hr>
             </div>
             <div className="second--page">
-                <h2 className="header--second">About Me </h2>
-                <p1 className="about--me"> I'm always curious by the nature that surrounds me and love exploring it
-                <br></br>
-                I also enjoy trying new things and meeting new people
-                <br></br>
-                Outside of school I enjoy surfing, fashion, photography, and sports
-                </p1>
-                <br></br>
+                <h2 className="header--second">About Me</h2>
+                <div className="second--main">        
+                    <div className="about--me"> 
+                        Born and raised on the island of Guam  
+                        <br></br>
+                        Grew up playing many different sports and always being outside
+                        <br></br>
+                        I'm always curious by the nature that surrounds me and love exploring it
+                        <br></br>
+                        I also love trying new things and meeting new people
+                        <br></br>
+                        Outside of school I enjoy surfing, fashion, and photography
+                    </div>
+                    <br></br>
+                    <img className = "headShot"src={headshot} />
+                </div>
+                
+              
                 <div className="info">
                     
-                        <div className="education"> <strong><u>Education</u></strong><br></br>Gonzaga University<br></br>junior</div>
-                        <div className="nationality"><strong><u>Nationality</u></strong><br></br>Japanese</div>
-                        <div className="location"> <strong><u>Locations</u></strong><br></br>Guam, USA<br></br>Washington, USA</div>
-                        <div className="reading"><strong><u>Reading</u></strong><br></br>The Power of Habit<br></br>by Charles Duhigg</div>
-                        <div className="favorite--sport"><strong><u>Favorite sport</u></strong><br></br>Basketball</div>
-                        <div className="camera--system"><strong><u>Camera System</u></strong><br></br>Sony</div>
+                        <div className="info--detailed"> <strong><u>Experience</u></strong><br></br>3 years</div>
+                        <div className="info--detailed"><strong><u>Nationality</u></strong><br></br>Japanese</div>
+                        <div className="info--detailed"> <strong><u>Locations</u></strong><br></br>Guam, USA<br></br>Washington, USA</div>
+                        <div className="info--detailed"><strong><u>Reading</u></strong><br></br>The Power of Habit<br></br>by Charles Duhigg</div>
+                        <div className="info--detailed"><strong><u>Favorite sport</u></strong><br></br>Basketball</div>
+                        <div className="info--detailed"><strong><u>Camera System</u></strong><br></br>Sony</div>
                     
                     
                 </div>
