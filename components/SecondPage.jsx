@@ -11,9 +11,9 @@ export default function SecondPage(){
                         <br></br>
                         Born and raised on the island of Guam  
                         <br></br>
-                        Grew up playing many different sports and always being outside
+                        Grew up by a beach and quickly became an ocean lover
                         <br></br>
-                        I'm always curious by the nature that surrounds me and love exploring it
+                        Always curious by the nature that surrounds me and love exploring it
                         <br></br>
                         I also love trying new things and meeting new people
                         <br></br>
@@ -34,10 +34,9 @@ export default function SecondPage(){
                     
                 </div>
                 <hr className="line-1"></hr>
-            </div>
-            <div className="my--work">
                 <h1 className="header">My work.</h1>
             </div>
+            
         </div>
     )
 }
