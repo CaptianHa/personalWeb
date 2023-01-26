@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Footer() {
     return (
-      <div>
+      <div id = "footer">
         <footer className="footer">
           <div className="footer--header">
             <p1 className="footer--text">Let's Talk</p1>
@@ -35,7 +35,9 @@ export default function Footer() {
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </span>
+          
         </footer>
+        <div className="footer--copy--right">hello</div>
       </div>
     );
 }

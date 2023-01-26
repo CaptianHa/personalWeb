@@ -5,7 +5,7 @@ export default function MyWork(props){
 
     
     return (
-      <div className="third--page">
+      <div className="third--page" id = "myWork">
        
         <div className="work--container">
           <h1>

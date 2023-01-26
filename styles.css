@@ -12,6 +12,12 @@ body{
     margin: 24px;
 }
 
+.nav--links{
+    text-decoration: none;
+    margin-right:15px;
+    color:black;
+}
+
 .first--page{
     
     padding-top: 80px;
@@ -96,6 +102,8 @@ body{
 
 .footer{
     text-align: center;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
 }
 
 .footer--text{
@@ -109,9 +117,13 @@ body{
 
 ion-icon{
     font-size:32px;
-    text-decoration: none;
+    color:black;
 }
 
 .social--media{
     margin-right: 20px;
+}
+
+.footer--copy--right{
+    background-color: white;
 }
