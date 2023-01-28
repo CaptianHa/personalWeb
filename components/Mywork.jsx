@@ -22,6 +22,8 @@ export default function MyWork(props){
               Languages: {props.item.language.at(0)},{" "}
               {props.item.language.at(1)}
               <br></br>
+              Library : {props.item.library.at(0)}
+              <br></br>
               <a className="link--project"href = {props.item.link} target="_blank" rel="noopener noreferrer">code</a>
             </p1>
           </h1>

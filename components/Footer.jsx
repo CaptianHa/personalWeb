@@ -37,7 +37,7 @@ export default function Footer() {
           </span>
           
         </footer>
-        <div className="footer--copy--right">hello</div>
+        <div className="footer--copyright"> © Hayato Tsujii</div>
       </div>
     );
 }
