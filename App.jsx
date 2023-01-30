@@ -7,11 +7,12 @@ import workData from "./workData"
 import Footer from "./components/Footer"
 export default function App(){
 
-    const work = workData.map(item => {
+    const work = workData.map((item, index) => {
         return (
         <MyWork
          key={item.id} 
          item={item} 
+         tools = {item.tools} 
          />
         )
     })

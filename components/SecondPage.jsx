@@ -34,7 +34,7 @@ export default function SecondPage(){
                     
                 </div>
                 <hr className="line-1"></hr>
-                <h1 className="header">My work.</h1>
+                <h1 className="header">My projects.</h1>
             </div>
             
         </div>

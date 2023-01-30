@@ -1,30 +1,33 @@
 import React from 'react'
-import website from '../images/website.jpg'
+
 
 export default function MyWork(props){
 
-    
+  
+
     return (
       <div className="third--page" id = "myWork">
        
         <div className="work--container">
           <h1>
-             <u>{props.item.project}</u>
+             {props.item.project}
+             <hr className="line--2"></hr>
             <br></br> <br></br>
-            <img className="work--photo" src={website} />
+            <img className="work--photo" src={props.item.picture} />
+            
             <br></br>
-            <p1 className="work--description">
-              {props.item.description}
+            <p1 className="work--container">
+              <p1 className ="work--description">{props.item.description}</p1>
               <br></br>
-              Tools: {props.item.tools.at(0)}, {props.item.tools.at(1)},{" "}
-              {props.item.tools.at(2)}
               <br></br>
-              Languages: {props.item.language.at(0)},{" "}
-              {props.item.language.at(1)}
+              Tools: {props.item.tools}
               <br></br>
-              Library : {props.item.library.at(0)}
+              Languages: {props.item.language}
               <br></br>
-              <a className="link--project"href = {props.item.link} target="_blank" rel="noopener noreferrer">code</a>
+              Library: {props.item.library}
+              <br></br>
+              <a className="link--project"href = {props.item.link} target="_blank" rel="noopener noreferrer">see code</a>
+
             </p1>
           </h1>
         </div>

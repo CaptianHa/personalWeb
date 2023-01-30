@@ -90,7 +90,7 @@ img:hover{
 
 .third--page{
     padding-left: 160px;
-    margin-top: 20px;  
+    margin-top: 5px;  
  }
 
 
@@ -105,11 +105,14 @@ img:hover{
     grid-template-columns: auto auto ;
 }
 
-.work--description{
+.work--container{
    font-weight: normal;
    font-size: 16px;
 }
 
+.work--description{
+    font-weight: 600;
+}
 .link--project{
     text-decoration: none;
     color:black;
@@ -137,6 +140,11 @@ img:hover{
 ion-icon{
     font-size:32px;
     color:black;
+}
+
+ion-icon:hover{
+    box-shadow: 0 0 11px black;
+    transition: box-shadow .3s;
 }
 
 .social--media{
