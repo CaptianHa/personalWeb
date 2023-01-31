@@ -13,7 +13,7 @@ export default [
             "picture":"surf-forecast.jpg"
         },
         {
-            "id": "3",
+            "id": "2",
             "project": "Personal Website",
             "description": "I always wanted a personal website so I decide to learn React JS and build one. This project took me about 3 weeks to build and is deployed on Netlify.",
             "tools":["VS code, ", "Figma, ", "Vite, ", "Github, ", "Netlify"],
@@ -26,7 +26,7 @@ export default [
         },
 
         {
-            "id": "2",
+            "id": "3",
             "project": "Gonzaga Hackathon 2022",
             "description": "My team of three noticed that Gonzaga doesn't have a quiz you can take to help you decide major you want to do, so we made a website to help choose your major for Gonzaga University. This project was all done within 12 hours and little to no knowlegde about JavaScipt, HTML/CSS.",
             "tools":["VS code, ", "Github"],
