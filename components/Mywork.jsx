@@ -13,7 +13,7 @@ export default function MyWork(props){
              {props.item.project}
              <hr className="line--2"></hr>
             <br></br> <br></br>
-            <img className="work--photo" src={props.item.picture} />
+            <img className="work--photo" src={`../public/${props.item.picture}`} />
             
             <br></br>
             <p1 className="work--container">

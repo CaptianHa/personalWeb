@@ -5,9 +5,11 @@ import SecondPage from "./components/SecondPage"
 import MyWork from "./components/Mywork"
 import workData from "./workData"
 import Footer from "./components/Footer"
+
+
 export default function App(){
 
-    const work = workData.map((item, index) => {
+    const work = workData.map((item) => {
         return (
         <MyWork
          key={item.id} 

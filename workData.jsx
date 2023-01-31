@@ -10,7 +10,7 @@ export default [
             "language":["Python"],
             "library": ["Panda"],
             "link":["https://github.com/CaptianHa/Surf-Forecast"],
-            "picture":["../images/surf-forecast.jpg"]
+            "picture":["surf-forecast.jpg"]
         },
         {
             "id": "3",
@@ -20,7 +20,7 @@ export default [
             "language":["JavaScript, ", "CSS/HTML"],
             "library": ["ReactJS"],
             "link":["https://github.com/CaptianHa/personalWeb"],
-            "picture":["../images/website.jpg"]
+            "picture":["website.jpg"]
             
             
         },
@@ -33,7 +33,7 @@ export default [
             "language":["JavaScript, ", "CSS/HTML"],
             "library": ["none"],
             "link":["https://github.com/CaptianHa/Hackathon-2022"],
-            "picture":["../images/hackathon.jpg"]
+            "picture":["hackathon.jpg"]
             
             
         }
