@@ -1,5 +1,5 @@
 import React from 'react'
-import headshot from '../images/headShot.jpg'
+import headshot from '../public/headShot.jpg'
 
 export default function SecondPage(){
     return(
