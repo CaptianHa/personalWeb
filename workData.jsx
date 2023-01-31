@@ -9,8 +9,8 @@ export default [
             "tools":["VS code, ", "Twoilio, ", "Github, ", "AWS Lambda"],
             "language":["Python"],
             "library": ["Panda"],
-            "link":["https://github.com/CaptianHa/Surf-Forecast"],
-            "picture":["surf-forecast.jpg"]
+            "link":"https://github.com/CaptianHa/Surf-Forecast",
+            "picture":"surf-forecast.jpg"
         },
         {
             "id": "3",
@@ -19,8 +19,8 @@ export default [
             "tools":["VS code, ", "Figma, ", "Vite, ", "Github, ", "Netlify"],
             "language":["JavaScript, ", "CSS/HTML"],
             "library": ["ReactJS"],
-            "link":["https://github.com/CaptianHa/personalWeb"],
-            "picture":["website.jpg"]
+            "link":"https://github.com/CaptianHa/personalWeb",
+            "picture":"website.jpg"
             
             
         },
@@ -32,8 +32,8 @@ export default [
             "tools":["VS code, ", "Github"],
             "language":["JavaScript, ", "CSS/HTML"],
             "library": ["none"],
-            "link":["https://github.com/CaptianHa/Hackathon-2022"],
-            "picture":["hackathon.jpg"]
+            "link":"https://github.com/CaptianHa/Hackathon-2022",
+            "picture":"hackathon.jpg"
             
             
         }
