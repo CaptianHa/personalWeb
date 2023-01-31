@@ -17,15 +17,15 @@ export default function MyWork(props){
             
             <br></br>
             <p1 className="work--container">
-              <p1 className ="work--description">{props.item.description}</p1>
+              <strong>Description: </strong> {props.item.description}
               <br></br>
+              <strong>Tools:</strong> {props.item.tools}
               <br></br>
-              Tools: {props.item.tools}
+              <strong>Languages:</strong> {props.item.language}
               <br></br>
-              Languages: {props.item.language}
+              <strong>Library: </strong>{props.item.library}
               <br></br>
-              Library: {props.item.library}
-              <br></br>
+
               <a className="link--project"href = {props.item.link} target="_blank" rel="noopener noreferrer">see code</a>
 
             </p1>

@@ -97,6 +97,7 @@ img:hover{
 .work--photo{
     width:60%;
     height:auto;
+    border: 5px solid white;
 }
 
 
@@ -110,9 +111,6 @@ img:hover{
    font-size: 16px;
 }
 
-.work--description{
-    font-weight: 600;
-}
 .link--project{
     text-decoration: none;
     color:black;

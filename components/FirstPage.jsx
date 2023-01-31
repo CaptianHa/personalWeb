@@ -10,11 +10,12 @@ export default function FirstPage(){
                 <p1 className="about">
                     Currently a <strong>junior</strong>, attending Gonzaga University
                     <br></br>
-                    A <em>developer, explorer, and problem-solver</em>
+                    A <em>Athlete, Developer, Explorer, and Problem-Solver</em>
                     <br></br>
-                    I value <em>integrity, Communication, Empathy, and Patience</em>
+                    I value <em>Integrity, Communication, Empathy, and Patience</em>
                     <br></br>
                     These properties guide me through my problem solving and through <strong>Life</strong>
+                  
                 </p1>
                 <hr className="line-1"></hr>
             </div>
