@@ -18,7 +18,7 @@ export default function SecondPage(){
                         <br></br>
                         Outside of school I enjoy surfing, fashion, and photography
                         <br></br>
-                        Read more me of <em><a className = "link--project" href = "https://www.postguam.com/sports/local/tsujii-eyes-engineering-path-at-gonzaga/article_a2ff28a4-c02a-11ea-95de-9340259e7bf4.html" target="_blank" rel="noopener noreferrer">here</a></em>
+                        Read more about me <em><a className = "link--project" href = "https://www.postguam.com/sports/local/tsujii-eyes-engineering-path-at-gonzaga/article_a2ff28a4-c02a-11ea-95de-9340259e7bf4.html" target="_blank" rel="noopener noreferrer">here</a></em>
                     </div>
                     <br></br>
                     <img className = "headShot"src={'headShot.jpg'} />
