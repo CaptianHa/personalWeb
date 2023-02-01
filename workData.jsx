@@ -15,7 +15,7 @@ export default [
         {
             "id": "2",
             "project": "Personal Website",
-            "description": "I always wanted a personal website so I decide to learn React JS and build one. This project took me about 3 weeks to build and is deployed on Netlify.",
+            "description": "I always wanted a personal website so I decide to learn React JS during winter break. This project took me about 3 weeks to build, I used Vite for my dev server and is deployed on Netlify.",
             "tools":["VS code, ", "Figma, ", "Vite, ", "Github, ", "Netlify"],
             "language":["JavaScript, ", "CSS/HTML"],
             "library": ["ReactJS"],
